@@ -7,9 +7,9 @@ import { Notes } from './Notes'
 
 export const Calendar = () => {
   return <div className='flex justify-center items-center mt-10'>
-    <div className=' border rounded-md w-lg h-150 flex flex-col'>
+    <div className=' border border-gray-400 shadow-2xl rounded-md w-lg h-150 flex flex-col p-3'>
     <div>
-    <img src={lanadelray} alt="image" className='w-full object-cover'/>
+    <img src={imageAnime} alt="image" className='w-full object-cover rounded-sm'/>
     </div>
     <div className= 'h-90 flex'>
     <Notes />

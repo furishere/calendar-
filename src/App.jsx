@@ -3,7 +3,7 @@ import { Calendar } from "./components/Calendar"
 function App() {
 
   return <div className="bg-white flex justify-center">
-    <div className="bg-green-300 w-full max-w-xl h-screen">
+    <div className="w-full max-w-xl h-screen">
     <Calendar />
     </div>
   </div>
